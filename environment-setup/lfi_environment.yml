@@ -1,0 +1,15 @@
+name: lfi
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - pip
+  - matplotlib
+  - numpy
+  - python=3.10.6
+  - pytorch
+  - torchvision
+  - scikit-learn
+  - scipy
+  - pip:
+    - opencv-contrib-python
